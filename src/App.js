@@ -6,13 +6,12 @@ import img from "./assests/images/bg2.jpg";
 
 function App() {
 
-
   return (
     <>
-      <Header title descr />
-      <Layout title="Lyaout title" descr="Layout description" UrlBg={img}  colorBg />
-      <Layout title="Lyaout title" descr="Layout description" UrlBg colorBg="lightblue" />
-      <Layout title="Lyaout title" descr="Layout description" UrlBg={img}  colorBg />
+      <Header title="This is title" descr="This is Description!" />
+      <Layout title="Lyaout title" descr="Layout description" UrlBg={img} />
+      <Layout title="Lyaout title" descr="Layout description" colorBg="lightblue" />
+      <Layout title="Lyaout title" descr="Layout description" UrlBg={img} />
       <Footer />
     </>
   );
